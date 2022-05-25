@@ -23,11 +23,11 @@ def process(arg):
          return nested_list[x][3] 
 
     def CreateTable():
-        conn = pymysql.connect(host='db.veryangryman.savana-hosting.cz' ,
+        conn = pymysql.connect(host='' ,
                                  port=10065,
-                                 user='cpd',
-                                 password='abc123.',
-                                 db='cpd')
+                                 user='',
+                                 password='',
+                                 db='')
         mytree=ET.parse(user_xml)
         root=mytree.getroot()        
      
@@ -112,11 +112,11 @@ def process(arg):
     CreateTable()
     
     def CreateXML():
-        conn = pymysql.connect(host='db.veryangryman.savana-hosting.cz' ,
+        conn = pymysql.connect(host='' ,
                                  port=10065,
-                                 user='cpd',
-                                 password='abc123.',
-                                 db='cpd')
+                                 user='',
+                                 password='',
+                                 db='')
 
         mytree=ET.parse(user_xml)
         root=mytree.getroot()
@@ -851,11 +851,11 @@ def process(arg):
     def NewXML():
         
 
-        conn = pymysql.connect(host='db.veryangryman.savana-hosting.cz' ,
+        conn = pymysql.connect(host='' ,
                                  port=10065,
-                                 user='cpd',
-                                 password='abc123.',
-                                 db='cpd')
+                                 user='',
+                                 password='',
+                                 db='')
         mytree=ET.parse(user_xml)
         root=mytree.getroot()
 
@@ -2061,11 +2061,11 @@ def process(arg):
     print("{} almost Completed".format(fileName_new))
 
     def tag3():
-        conn = pymysql.connect(host='db.veryangryman.savana-hosting.cz' ,
+        conn = pymysql.connect(host='' ,
                                  port=10065,
-                                 user='cpd',
-                                 password='abc123.',
-                                 db='cpd')
+                                 user='',
+                                 password='',
+                                 db='')
 
 
         def GetAlt():
@@ -2136,11 +2136,11 @@ def process(arg):
         
     tag3()
     def tag4():
-        conn = pymysql.connect(host='db.veryangryman.savana-hosting.cz' ,
+        conn = pymysql.connect(host='' ,
                                  port=10065,
-                                 user='cpd',
-                                 password='abc123.',
-                                 db='cpd')
+                                 user='',
+                                 password='',
+                                 db='')
 
 
         def GetOtherImg():
